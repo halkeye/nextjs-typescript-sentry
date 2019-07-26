@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Link from 'next/link';
 
 interface IRuntimeProps {
 }
@@ -8,7 +7,7 @@ const onclick = () => {
   throw new Error('runtime error')
 }
 
-const RuntimePage: React.SFC<IRuntimeProps> = (props) => {
+const RuntimePage: React.SFC<IRuntimeProps> = () => {
   return (
     <div>
       <h1>Welcome</h1>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 interface IIndexProps {
 }
 
-const IndexPage: React.SFC<IIndexProps> = (props) => {
+const IndexPage: React.SFC<IIndexProps> = () => {
   return (
     <div>
       <h1>Welcome</h1>

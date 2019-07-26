@@ -1,6 +1,5 @@
 import * as React from 'react'
-import App, {Container, AppInitialProps} from 'next/app'
-import Router from 'next/router'
+import App, {AppInitialProps} from 'next/app'
 import {captureException} from '../shared/sentry'
 
 export default class AppPage extends App {

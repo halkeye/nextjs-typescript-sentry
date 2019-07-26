@@ -1,11 +1,10 @@
 import * as React from 'react';
-import {NextPageContext} from 'next';
 
 interface IServerProps {
 }
 
 export class ServerPage extends React.Component<IServerProps> {
-  static async getInitialProps(context: NextPageContext): Promise<IServerProps> {
+  static async getInitialProps(): Promise<IServerProps> {
     throw new Error('server error')
   }
   render(): React.ReactElement {

@@ -2,7 +2,6 @@
 // NOTE: This require will be replaced with `@sentry/browser`
 // client side thanks to the webpack config in next.config.js
 import * as Sentry from '@sentry/node'
-import getConfig from 'next/config'
 import Cookie from 'js-cookie'
 
 const sentryOptions = {
